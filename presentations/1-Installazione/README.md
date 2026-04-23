@@ -3,7 +3,7 @@
 <!-- New section -->
 ## Fedora, RHEL
 Dovrebbe già essere installato di default. 
-Controllare stato della installazione con `getenforce`. Se il comando funziona, è già presente sul sistema SELinux, out of the box. 
+Controllare stato della installazione con `getenforce`. Se il comando funziona, è già presente sul sistema SELinux, out of the box.  
 
 <!-- New section -->
 ## Debian-based
