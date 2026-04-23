@@ -12,6 +12,7 @@ In pratica, **il kernel interroga SELinux prima di ogni chiamata di sistema per 
 ### Controllo di accesso
 
 Un **kernel** Linux che integra SELinux impone politiche di **Controllo di accesso** obbligatorie *che limitano i programmi degli utenti*, i software di sistema dei server, l'accesso ai file e alle risorse di rete. **Limitando i permessi al minimo**, sui sistemi Linux, si riduce la possibilità di fare danni se programmi risultano difettosi o compromessi. 
+
 <!-- .element: class="fragment" -->
 Questo concetto è anche noto come [Principle of Least Privilege](https://en.wikipedia.org/wiki/Principle_of_least_privilege). 
 
@@ -22,7 +23,8 @@ La sicurezza di un sistema senza SELinux (**Discretionary Access Control**) dipe
 <!-- New subsection-->
 ### Mandatory Access Control
 Al contrario in un sistema che integra SELinux (**Mandatory Access Control**), la sicurezza dipende dalla correttezza del kernel e dalle configurazioni delle politiche (o *policy*) di sicurezza.
-<!-- .element: class="fragment" -->
+
+<!-- New subsection-->
 Solo con permessi root si possono modificare le policy di sicurezza. SELinux protegge dalla compromissione di processi non privilegiati. Non protegge da un attaccante che ha già ottenuto root.
 <!-- .element: class="fragment" -->
 Quindi il tipo di difesa che otteniamo con SELinux è una prevenzione: **cerchiamo di limitare Privilege Escalation a monte.** 
@@ -35,7 +37,7 @@ Quindi il tipo di difesa che otteniamo con SELinux è una prevenzione: **cerchia
 **TIPO = Assegnato ad un oggetto, DOMINIO = Assegnato ad un processo in esecuzione.** La policy SELinux è un insieme di regole che dicono quali domini possono interagire con quali tipi, e in che modo. 
 
 <!-- New subsection-->
-### Aggiunta e Rimozione di policies
+### Aggiunta e Rimozione di policies 
 **Aggiungere moduli ad una [[policy]] è semplice**, anche tramite cose che sono state bloccate precedentemente, tramite `audit2why` e `audit2allow`.
 <!-- .element: class="fragment" -->
 Tuttavia bisogna esercitare cautela nella **rimozione di un modulo**, perché potrebbe comportare policies con fallacie o policy inconsistenti.
@@ -61,7 +63,7 @@ Per ottenere ciò, questi eseguibili sono etichettati con un tipo univoco (per e
 <!-- New section-->
 ## Access Vector Cache
 La **Access Vector Cache** (o AVC) permette a SELinux di non creare immenso **Overhead** nel momento di fare chiamate di sistema, e aiuta nel non consultare costantemente l'intera policy ad ogni syscall. La cache di decisioni già prese viene caricata in memoria così da fungere, appunto, da meccanismo di cache. 
-<!-- .element: class="fragment" -->
+<!-- New subsection-->
 `(dominio_sorgente, tipo_destinazione, classe_oggetto)` - Viene utilizzata una bitmask per rappresentare tutti i permessi possibili. 
 <!-- .element: class="fragment" -->
 Viene svuotata quando si carica un nuovo modulo, si cambia un booleano o la modalità. 
