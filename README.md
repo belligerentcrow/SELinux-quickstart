@@ -17,7 +17,7 @@ The use of the information contained in the report for anything else than didact
 <!-- New section -->
 
 ## Resources
-
+Le risorse sono anche presenti nelle note a pié di pagina del report.
 ### Links
 * [Linux potenziato per la sicurezza (SELinux)](https://www.ibm.com/docs/it/db2/11.5.x?topic=security-enhanced-linux-selinux) IBM
 * [Introduzione a SELinux - The Debian Administrator's Handbook](https://debian-handbook.info/browse/it-IT/stable/sect.selinux.html)
@@ -42,6 +42,6 @@ Very brief overview: [The SELinux Coloring Book](https://github.com/mairin/selin
 * [Presentations and Papers](https://github.com/SELinuxProject/selinux/wiki/Presentations-and-Papers) *provides links to a number of technical SELinux presentations and papers spanning its development.*
 
 <!-- New section -->
-### Contatti
+## Contatti
 - [Telegram](https://t.me/fedeardizz)
 - [Github](https://github.com/belligerentcrow)
