@@ -11,7 +11,8 @@ Notes of a mini-challenge assigned by [Prof. G. Bella](https://www.dmi.unict.it/
 <!-- New subsection -->
 
 The presentation was created by me and projected (in Obsidian format) during the challenge presentation. They might contain errors, typos, or discrepancies.  
-The use of the information contained in the report for anything else than didactic aim is at the reader's complete discretion.   
+  
+The use of the information contained in the report for anything else than didactic aim is at the reader's complete responsibility.   
 
 <!-- New section -->
 
