@@ -10,7 +10,7 @@ Notes of a mini-challenge assigned by [Prof. G. Bella](https://www.dmi.unict.it/
 
 <!-- New subsection -->
 
-The presentation was created by me and projected (in Obsidian format) during the challenge presentation. They might contain errors, typos, or discrepancies.  
+[The presentation](https://github.com/belligerentcrow/SELinux-quickstart/blob/main/Security_Enhanced_Linux_2026.pdf) was created by me and projected (in Obsidian format) during the challenge presentation. They might contain errors, typos, or discrepancies.  
   
 The use of the information contained in the report for anything else than didactic aim is at the reader's complete responsibility.   
 
