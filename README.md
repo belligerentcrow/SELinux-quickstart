@@ -10,31 +10,13 @@ Notes of a mini-challenge assigned by [Prof. G. Bella](https://www.dmi.unict.it/
 
 <!-- New subsection -->
 
-These slides were created by me and projected (in Obsidian format) during the challenge presentation. They might contain errors, typos, or discrepancies. 
-<!-- .element: class="fragment" -->
-These slides are written in italian and english. Knowledge of both languages might be required to read them fully.
-
-<!-- New section -->
-
-## Presentations
-
-<div class="scrollable">
-
-|   |                                           |
-|----|------------------------------------------ |
-| 0 | [Cos'è SELinux](presentations/0-CosSELinux)       |
-| 1 | [Installazione](presentations/1-Installazione) |
-| 2 | [Configurazione](presentations/2-Configurazione) |
-| 3| [Uso](presentations/3-Uso) |
-| 4 | [Bypass](presentations/4-Bypass) |
-| 5 | [Web Exploit](presentations/5-WebExploit) |
-
-</div>
+The presentation was created by me and projected (in Obsidian format) during the challenge presentation. They might contain errors, typos, or discrepancies.  
+The use of the information contained in the report for anything else than didactic aim is at the reader's complete discretion.   
 
 <!-- New section -->
 
 ## Resources
-<!-- .element: class="fragment" -->
+
 ### Links
 * [Linux potenziato per la sicurezza (SELinux)](https://www.ibm.com/docs/it/db2/11.5.x?topic=security-enhanced-linux-selinux) IBM
 * [Introduzione a SELinux - The Debian Administrator's Handbook](https://debian-handbook.info/browse/it-IT/stable/sect.selinux.html)
@@ -60,13 +42,6 @@ Very brief overview: [The SELinux Coloring Book](https://github.com/mairin/selin
 * [Presentations and Papers](https://github.com/SELinuxProject/selinux/wiki/Presentations-and-Papers) *provides links to a number of technical SELinux presentations and papers spanning its development.*
 
 <!-- New section -->
-
-### Framework Credit
-The template framework which was used to create these slides was made by ![TendTo icon](./vendor/img/favicon-16x16.png)[Ernesto Casablanca](https://github.com/TendTo/Tutorato-Template)
-
-<!-- New section -->
-
-## Contacts
 
 - [Telegram](https://t.me/fedeardizz)
 - [Github](https://github.com/belligerentcrow)
