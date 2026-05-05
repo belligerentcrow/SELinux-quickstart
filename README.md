@@ -22,7 +22,6 @@ The use of the information contained in the report for anything else than didact
 * [Linux potenziato per la sicurezza (SELinux)](https://www.ibm.com/docs/it/db2/11.5.x?topic=security-enhanced-linux-selinux) IBM
 * [Introduzione a SELinux - The Debian Administrator's Handbook](https://debian-handbook.info/browse/it-IT/stable/sect.selinux.html)
 * [SELinux - Arch Wiki](https://wiki.archlinux.org/title/SELinux)
-* [Discussione Reddit controversa](https://www.reddit.com/r/linux/comments/1s4i8js/most_people_talk_about_selinux_but_no_one_uses_it/)
 * [How to disable SELinux using GRUB](https://unix.stackexchange.com/questions/503702/how-to-disable-selinux-using-grub)
 * [SELinux Project Github](https://github.com/selinuxproject)
 * [**SITO UFFICIALE DI SELINUX DALLA REPOSITORY GITHUB**](https://selinuxproject.github.io/)
@@ -43,6 +42,6 @@ Very brief overview: [The SELinux Coloring Book](https://github.com/mairin/selin
 * [Presentations and Papers](https://github.com/SELinuxProject/selinux/wiki/Presentations-and-Papers) *provides links to a number of technical SELinux presentations and papers spanning its development.*
 
 <!-- New section -->
-
+### Contatti
 - [Telegram](https://t.me/fedeardizz)
 - [Github](https://github.com/belligerentcrow)
